@@ -1,3 +1,4 @@
+import { FitbitDatabases } from '../src/database/init';
 import User from '../src/database/models/User';
 
 declare global {

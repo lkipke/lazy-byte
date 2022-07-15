@@ -1,1 +1,6 @@
 .env
+key.pem
+dist
+node_modules
+json
+certs

@@ -7,7 +7,11 @@ COPY yarn.lock ./
 
 RUN yarn install
 
-COPY . .
+COPY tsconfig.json .
+COPY certs .
+COPY types .
+COPY public .
+COPY src .
 
 # RUN yarn build
 
